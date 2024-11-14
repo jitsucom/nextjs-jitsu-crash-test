@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3298",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3298",
     "lint": "next lint"
   },
   "dependencies": {
+    "@jitsu/js": "^1.9.10",
+    "@segment/analytics-node": "^2.2.0",
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
     "typescript": "^5",
