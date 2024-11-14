@@ -1,7 +1,7 @@
 import {jitsuAnalytics} from "@jitsu/js";
 import {Analytics} from "@segment/analytics-node";
 
-const analyticsHost = process.env.ANALLYTICS_HOST || "http://localhost:3298/error";
+const analyticsHost = process.env.ANALYTICS_HOST || "http://localhost:3298/error";
 
 const jitsu = jitsuAnalytics({
     host: analyticsHost,
